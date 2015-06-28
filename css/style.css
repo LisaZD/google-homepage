@@ -1,0 +1,146 @@
+/***********************
+GENERAL
+************************/
+
+body{
+	font-family: arial;
+	font-size: .75em;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+#wrapper {
+	min-width: 100%;
+	margin: 0 auto;
+	padding: 130px 0 0 0;
+}
+
+/***********************
+NAVIGATION
+***********************/
+header {
+	text-align: right;
+	margin: 20px 20px 0 0;
+}
+
+#top_nav li {
+	text-align: left;
+	padding: 0;
+	margin: 0 6px;
+	display: inline-block;
+}
+
+#options{
+	height: 20px;
+	width: 20px;
+	vertical-align: middle;
+}
+
+#gmail_link, #image_link {
+	color: #404040;
+}
+
+#button {
+	padding: 7px 12px;
+	background: #4584ef;
+	font-weight: bold;
+	border-radius: 2px;
+	color: #fff;
+}
+
+/**********************
+GOOGLE LOGO
+***********************/
+#logo {
+	display: block;
+	width: 245px; height: auto;
+	margin: 0 auto;
+}
+
+/***********************
+SEARCH
+************************/
+input[type="text"] {
+	display: block;
+	width: 450px; height: 20px;
+	font-size: 16px;
+	margin: 25px auto 0;
+	padding: auto;
+}
+
+textarea:focus, input:focus{
+    outline-color: #176def;
+    outline-width: 1px;
+}
+
+.search_button {
+	display: inline-block;
+	font-weight: bold;
+	font-size: .9em;
+	padding: 7px 12px;
+	background: #f2f2f2;
+	color: #444444;
+	margin: 0 5px;
+	border-color: #d8d8d8;
+	border-width: 1px;
+	border-radius: 2px;
+	border-style: solid;
+}
+
+section {
+	text-align: center;
+}
+
+
+/***********************
+FOOTER
+************************/
+
+#footer{
+	min-width: 100%;
+	position: absolute;
+	bottom: 0;
+	background: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+
+#left_bottom_nav{
+	float: left;
+	padding: 0;
+	margin-left: 20px;
+}
+
+#right_bottom_nav{
+	float: right;
+	margin-right: 20px;
+}
+
+.bottom_nav li{
+	padding: 2px 12px 2px;
+	display: inline-block;
+	color: #666666;
+}
+
+.bottom_nav a {
+	color: inherit;
+}
+
+.bottom_nav a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
